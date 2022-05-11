@@ -8,17 +8,12 @@ class Location:
         self.connect = connects_to
 
 
-location1 = Location('Ballroom', 'The grand ballroom has parquet floor and a beautiful crystal chandelier.', False)
-location2 = Location('Billiard Room', 'The billiard room has wood paneling and a plush billiard table and '
-                                      'comfortable chairs.', False)
-location3 = Location('Conservatory', 'The conservatory has large glass windows and a lot of potted plants.', True,
-                     'Lounge')
-location4 = Location('Dining Room', 'The dining room has a large elegant table and chairs with a large side-board '
-                                    'and cupboard.', False)
-location5 = Location('Hall', "The hall is a grand entrance from the front door with doors leading into the rest of "
-                             "the mansion.", False)
-location6 = Location('Kitchen', 'The kitchen has a large stove and oven and sink.', True, 'Study')
-location7 = Location('Library', 'The library has ceiling to floor bookcases and comfortable chairs and couches.', False)
-location8 = Location('Lounge', 'The lounge has large windows and couches in a couple of conversation groups.', True,
-                     'Conservatory')
-location9 = Location('Study', 'The study has a large ornate desk and a small grouping of chairs.', True, 'Kitchen')
+location1 = Location('Cellar', 'fill in description.', False)
+location2 = Location('Attic', 'fill in description.', False)
+location3 = Location('Conservatory', 'fill in description.', True, 'Laboratory')
+location4 = Location('Dining Room', 'fill in description', False)
+location5 = Location('Master Bedroom', 'fill in description', False)
+location6 = Location('Kitchen', 'fill in description', True, 'Study')
+location7 = Location('Library', 'fill in description', False)
+location8 = Location('Laboratory', 'fill in description', True, 'Conservatory')
+location9 = Location('Study', 'fill in description', True, 'Kitchen')

@@ -7,10 +7,9 @@ class Weapons:
         self.start = start_loc
 
 
-weapon1 = Weapons('candlestick', 'The candlestick is a large silver-plated single candlestick.', 'Lounge')
-weapon2 = Weapons('knife', 'The knife is a sharp knife from the dining room silverware set.', 'Dining Room')
-weapon3 = Weapons('lead pipe', 'The lead pipe appears to have been removed from some part of the mansion plumbing.',
-                  'Conservatory')
-weapon4 = Weapons('revolver', 'The revolver is a fully functional hand gun with ammunition loaded.', 'Study')
-weapon5 = Weapons('rope', 'The rope is a length of sturdy hemp rope.', 'Hall')
-weapon6 = Weapons('wrench', 'The wrench is a slightly rusted adjustable wrench.', 'Kitchen')
+weapon1 = Weapons('candlestick', 'a heavy silver-plated candlestick with no candle.', 'Dining Room')
+weapon2 = Weapons('knife', 'a sharp chef\'s knife', 'Kitchen')
+weapon3 = Weapons('poison', 'a vial of liquid with the poison warning on an otherwise unreadable label', 'Laboratory')
+weapon4 = Weapons('revolver', 'a military service revolver with ammunition', 'Study')
+weapon5 = Weapons('twisted wire', 'a length of electrical wires twisted together in a bundle.', 'Attic')
+weapon6 = Weapons('hammer', 'slightly rusted household hammer.', 'Cellar')
